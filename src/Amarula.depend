@@ -1,0 +1,107 @@
+# depslib dependency file v1.0
+1231064194 source:d:\amarula\main.cpp
+	<cstdlib>
+	<iostream>
+	"game.h"
+
+1235846076 
+
+1231172960 d:\amarula\game.h
+	<windows.h>
+
+1231172960 >
+
+1231002570 source:d:\amarula\sprite.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	"game.h"
+
+1235845836 source:/media/KINGSTON/Amarula/main.cpp
+	<cstdlib>
+	<iostream>
+	"game.h"
+
+1235845048 /media/KINGSTON/Amarula/game.h
+	<vector>
+
+1235838579 source:/media/KINGSTON/Amarula/sprite.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	"game.h"
+
+1235838293 source:/media/KINGSTON/Amarula/game.cpp
+	<cstdlib>
+	<iostream>
+	<ctime>
+	"game.h"
+
+1235846076 source:/media/KINGSTON/Amarula/spriteGroup.cpp
+	"game.h"
+
+1235838578 source:d:\amarula\src\sprite.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	"game.h"
+
+1235845048 d:\amarula\src\game.h
+	<vector>
+
+1235846076 source:d:\amarula\src\spritegroup.cpp
+	"game.h"
+
+1235856582 source:/media/KINGSTON/Amarula/src/game.cpp
+	<cstdlib>
+	<iostream>
+	<ctime>
+	"game.h"
+
+1235901016 /media/KINGSTON/Amarula/src/game.h
+	<vector>
+
+1235838578 source:/media/KINGSTON/Amarula/src/sprite.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	"game.h"
+
+1235846076 source:/media/KINGSTON/Amarula/src/spriteGroup.cpp
+	"game.h"
+
+1235857531 source:/media/KINGSTON/Amarula/src/McMyra.cpp
+	<iostream>
+	<time.h>
+	"game.h"
+
+1235920460 source:/home/axel/Amarula/src/game.cpp
+	<cstdlib>
+	<iostream>
+	<ctime>
+	"game.h"
+
+1236541998 /home/axel/Amarula/src/game.h
+	<vector>
+
+1237026842 source:/home/axel/Amarula/src/McMyra.cpp
+	<iostream>
+	"game.h"
+	"keyboard.h"
+
+1235901120 source:/home/axel/Amarula/src/clock.cpp
+	<time.h>
+	"game.h"
+
+1236541961 source:/home/axel/Amarula/src/spriteGroup.cpp
+	"game.h"
+
+1235908028 source:/home/axel/Amarula/src/sprite.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	"game.h"
+
+1237026940 /home/axel/Amarula/src/keyboard.h
+	<pthread.h>
+

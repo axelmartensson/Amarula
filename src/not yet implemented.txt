@@ -1,0 +1,32 @@
+Sprite::Sprite(Display &d, const char *tilefile)
+{
+
+    int i,j,ncols,nrows;
+    ifstream imgfile(tilefile);
+    char rows[4], cols[4];
+    imgfile.getline(rows, 4);
+    imgfile.getline(cols, 4);
+    nrows = atoi(rows);
+    ncols = atoi(cols);
+    //nrows -= 1;
+    //ncols -= 1;
+    char tmp;
+
+    for(i=0;i<nrows;i++)
+    {
+
+        for(j=0;j<ncols;j++)
+        {
+            imgfile.get(tmp);
+            d.set(i, j, tmp);
+
+        }
+        imgfile.get(tmp);
+        imgfile.get(tmp);
+        imgfile.get(tmp);
+
+    }
+
+    imgfile.close();
+
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Amarula" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="Amarula" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Linker>
+					<Add library="/usr/lib/libpthread.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="McMyra.cpp" />
+		<Unit filename="clock.cpp" />
+		<Unit filename="game.cpp" />
+		<Unit filename="game.h" />
+		<Unit filename="keyboard.h" />
+		<Unit filename="sprite.cpp" />
+		<Unit filename="spriteGroup.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
